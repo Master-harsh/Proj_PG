@@ -31,7 +31,7 @@ function Home() {
                 high-speed Wi-Fi, and delicious home-cooked meals.
               </p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <h3
                 className="px-4 py-2 mb-5 bg-orange-100 text-white font-bold text-3xl rounded-lg shadow-md border border-orange-400 animate-pulseHighlight"
                 style={{ animationDelay: "1.1s" }}
