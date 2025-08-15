@@ -20,7 +20,7 @@ export default function About() {
         
         {/* Left Content */}
         <div>
-          <h2 className="text-4xl font-bold text-amber-600 mb-4">About Us</h2>
+          <h2 className="text-4xl font-bold text-amber-600 mb-4 text-center">About Us</h2>
           <p className="mb-6 text-white">
             At <span className="font-semibold">Perfect Stay PG</span>, we provide comfortable, safe, and affordable living spaces for students and working professionals.
             We understand the need for a home-like environment, and that’s exactly what we deliver.
@@ -32,9 +32,9 @@ export default function About() {
               <div key={index} className="bg-amber-50 p-4 rounded-lg shadow hover:shadow-lg transition duration-300">
                 <div className="flex items-center gap-3 mb-2">
                   {item.icon}
-                  <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 text-center">{item.title}</h3>
                 </div>
-                <p className="text-gray-600 text-sm">{item.desc}</p>
+                <p className="text-gray-600 text-sm text-center">{item.desc}</p>
               </div>
             ))}
           </div>
