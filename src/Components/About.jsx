@@ -21,7 +21,7 @@ export default function About() {
         {/* Left Content */}
         <div>
           <h2 className="text-4xl font-bold text-amber-600 mb-4 text-center">About Us</h2>
-          <p className="mb-6 text-white">
+          <p className="mb-6 text-white text-center">
             At <span className="font-semibold">Perfect Stay PG</span>, we provide comfortable, safe, and affordable living spaces for students and working professionals.
             We understand the need for a home-like environment, and that’s exactly what we deliver.
           </p>
