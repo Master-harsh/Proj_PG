@@ -36,10 +36,10 @@ function ResponsiveMenu({ open, setOpen }) {
                   About
                 </li>
                 <li
-                  onClick={() => scrollToSection("blog")}
+                  onClick={() => scrollToSection("gallery")}
                   className='hover:bg-amber-100 hover:text-orange-500 cursor-pointer px-4 py-2 rounded-md'
                 >
-                  Blog
+                  Gallery
                 </li>
                 <li
                   onClick={() => scrollToSection("pricing")}
