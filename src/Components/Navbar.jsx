@@ -14,8 +14,8 @@ function Navbar() {
 
   return (
     <>
-      <nav>
-        <div className="container flex justify-between items-center bg-orange-500 py-6">
+      <nav className="top-0 left-0 w-full z-50 shadow-md bg-orange-500">
+        <div className="container flex justify-between items-center py-6 w-full mx-auto">
           {/* Logo Section */}
           <div className="text-2xl flex items-center gap-2 font-bold uppercase mx-2">
             <IoIosHome />
