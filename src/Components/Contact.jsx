@@ -1,7 +1,7 @@
 export default function ContactSection() {
   return (
     <section id="contact" className="bg-[#000021] py-12 mt-0.5">
-      <h1 className="text-4xl text-orange-400 font-bold mb-5" >Contact Us</h1>
+      <h1 className="text-center text-4xl text-orange-400 font-bold mb-5" >Contact Us</h1>
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8">
 
         {/* Left Side - Contact Form */}
