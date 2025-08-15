@@ -38,7 +38,7 @@ export default function ContactSection() {
         </div>
 
         {/* Right Side - Google Map */}
-        <div className="rounded-lg overflow-hidden shadow-lg">
+        <div className="rounded-lg overflow-hidden shadow-lg h-[300px] sm:h-[400px]">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7006.566709632943!2d77.30093199330463!3d28.59127510274882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce59cfb2afc81%3A0xe56f13e6d57960c2!2sPREFECT%20GIRLS%20PG%20NEW%20ASHOK%20NAGAR!5e0!3m2!1sen!2sin!4v1755181315765!5m2!1sen!2sin" width="100%"
             height="100%"
             style={{ minHeight: "400px", border: "0" }}

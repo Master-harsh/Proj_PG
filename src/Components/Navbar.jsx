@@ -71,7 +71,7 @@ function Navbar() {
       </nav>
 
       {/* Mobile sidebar section */}
-      <ResponsiveMenu open={open} />
+      <ResponsiveMenu open={open} setOpen={setOpen} />
     </>
   );
 }
